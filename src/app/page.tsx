@@ -1,5 +1,6 @@
 import FeaturedCources from "@/components/FeaturedCources";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <h1 className="text-center text-3xl">music web by Bishal ...</h1>
       <HeroSection/>
       <FeaturedCources/>
+      <WhyChooseUs/>
     </main>
   );
 }
