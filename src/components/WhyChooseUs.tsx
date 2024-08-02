@@ -4,6 +4,7 @@ import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
 import musciImage1 from '@/assets/musicImage1.jpg'
+import musciImage2 from '@/assets/musicImage2.jpg'
 
 const musicSchoolContent = [
     {
@@ -30,6 +31,17 @@ const musicSchoolContent = [
       title: 'Cutting-Edge Curriculum',
       description:
         'Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.',
+        content: (
+          <div className="h-full w-full  flex items-center justify-center text-white">
+            <Image
+              src={musciImage2}
+              width={300}
+              height={300}
+              className="h-full w-full object-cover"
+              alt="linear board demo"
+            />
+          </div>
+        ),
     },
     {
       title: 'Limitless Learning Opportunities',
